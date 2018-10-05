@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Title</title>
+
+    <link href="basic.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="header" >
+    <div class="header-option"><a href="index.html">Home</a></div>
+    <div class="header-option"><a href="bookform1.html">Add book</a></div>
+    <div class="header-option"><a href="authorform.html">Add author</a></div>
+</div>
+<div class="content">
+    <form action="addAuthor" method="POST">
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="name" required="required" autofocus="true"></td>
+            </tr>
+            <tr>
+                <td>Nationality</td>
+                <td><select name="nationality" required="required">
+                    <option value="hu">Hungary</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">United Kingdom</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Birth date</td>
+                <td><input type="date" name="birthDate"/> </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Add book"/></td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+
+</body>
+</html>
