@@ -1,0 +1,52 @@
+body{background-image: linear-gradient(red, yellow, green)}
+a:link{
+    color: darkblue;
+}
+
+a:visited{
+    color: crimson;}
+
+a:hover {
+    background-color: green;
+    font-size:50px;
+}
+
+.header {
+    margin: 0 auto;
+    width: 70%;
+    color: coral;
+    display: flex;
+}
+.header .header-option {
+    padding: 30px;
+}
+.content {
+    margin: 0 auto 40px auto;
+    width: 70%;
+}
+.content .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.content .main-box {
+    display: flex;
+}
+.content .main-box table {
+    padding: 40px;
+}
+.content .main-box .sponsore {
+    padding: 40px;
+}
+
+#buttons {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+

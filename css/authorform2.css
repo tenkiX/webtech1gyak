@@ -1,0 +1,47 @@
+body{ background-image: linear-gradient(red, yellow);}
+
+a:link{
+    color: darkmagenta;
+}
+
+a:hover {
+    background-color: yellow;
+    font-size:20px;
+}
+
+body{
+    align-content:center;
+}
+a:visited{
+    color: crimson;}
+
+.header {
+    font-size: 30px;
+    margin: 0 auto;
+    width: 30%;
+    color: chocolate;
+    display: flex;
+}
+
+.header .header-option {
+    padding: 30px;
+}
+.content {
+    margin: 0 auto 60px auto;
+    width: 80%;
+}
+.content .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.content .main-box {
+    display: flex;
+}
+.content .main-box table {
+    padding: 20px;
+}
+table, th, td {
+    border: 1px solid black;
+    font-family: "Bitstream Vera Sans";
+}

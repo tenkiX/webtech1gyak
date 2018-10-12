@@ -1,0 +1,40 @@
+body{background-color: darkgoldenrod}
+a:link{
+color: crimson;
+}
+
+a:visited{
+color: crimson;}
+
+.contentImage{
+width: 200px;
+}
+
+#everything{
+margin:auto;
+width: 100%}
+
+#banner{
+height: 60px;
+background: green;
+color: grey;
+font-size: 40px;
+}
+
+#menuBar{
+font-size: 17px;
+float: right;
+background: blue;
+margin-top: 60px;
+}
+
+#menuBar .menuButton{
+width: 150px;
+border-radius: 20px;
+background: dimgray;
+border: 5px dotted black;
+display: inline-block;
+}
+
+
+
