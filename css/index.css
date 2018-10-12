@@ -36,5 +36,8 @@ border: 5px dotted black;
 display: inline-block;
 }
 
-
+p:hover{
+    background-color: lightsteelblue;
+    font-size: 20px;
+}
 

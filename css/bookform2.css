@@ -1,14 +1,16 @@
-body{background-image: linear-gradient(red, yellow, green)}
+body{background-image: linear-gradient(lightgoldenrodyellow, lightsteelblue, lightgoldenrodyellow)}
 a:link{
     color: darkblue;
+    background-color: lightblue;
 }
 
 a:visited{
     color: crimson;}
 
 a:hover {
-    background-color: green;
-    font-size:50px;
+    background-color: darkblue;
+    font-size:20px;
+    color: lightblue;
 }
 
 .header {

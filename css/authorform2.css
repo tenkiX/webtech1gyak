@@ -1,12 +1,15 @@
-body{ background-image: linear-gradient(red, yellow);}
+body{ background-image: linear-gradient(lightblue, lavender,lightblue);}
 
 a:link{
     color: darkmagenta;
+    font-size:20px;
+
 }
 
 a:hover {
     background-color: yellow;
     font-size:20px;
+
 }
 
 body{
@@ -24,7 +27,7 @@ a:visited{
 }
 
 .header .header-option {
-    padding: 30px;
+    padding: 15px;
 }
 .content {
     margin: 0 auto 60px auto;
@@ -42,6 +45,11 @@ a:visited{
     padding: 20px;
 }
 table, th, td {
+
     border: 1px solid black;
     font-family: "Bitstream Vera Sans";
+}
+table.center {
+    margin-left:auto;
+    margin-right:auto;
 }
